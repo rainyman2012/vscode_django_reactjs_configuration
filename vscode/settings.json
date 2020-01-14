@@ -1,5 +1,6 @@
 {
   "python.pythonPath": "env/bin/python",
+   "emmet.triggerExpansionOnTab": true, // Emmet extension must have been installed on your system.
   "editor.formatOnSave": true,
   "python.linting.pep8Enabled": true,
   "python.linting.pylintPath": "pylint",
@@ -22,4 +23,5 @@
       "name": "assignment"
     }
   ],
+  
 }
