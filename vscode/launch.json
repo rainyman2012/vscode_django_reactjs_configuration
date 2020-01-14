@@ -25,7 +25,8 @@
       "request": "launch",
       "program": "${workspaceFolder}/manage.py",
       "args": ["runserver", "--noreload"],
-      "django": true
+      "django": true // If you want to use django which is less than 2.1 its better to turn this variable to false. 
+                     // when turning this value to "false" all debugging on the templates will be disabled.
     }
   ]
 }
