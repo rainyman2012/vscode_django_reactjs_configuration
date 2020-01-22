@@ -23,5 +23,7 @@
       "name": "assignment"
     }
   ],
-  
+  "debug.allowBreakpointsEverywhere": true,
+  "window.title": "${folderPath}${separator}${activeEditorShort}${rootPath}",
+  "window.titleBarStyle": "custom"
 }
