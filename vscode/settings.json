@@ -25,5 +25,10 @@
   ],
   "debug.allowBreakpointsEverywhere": true,
   "window.title": "${folderPath}${separator}${activeEditorShort}${rootPath}",
-  "window.titleBarStyle": "custom"
+  "window.titleBarStyle": "custom",
+  "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/*/**": true
+      }
 }
