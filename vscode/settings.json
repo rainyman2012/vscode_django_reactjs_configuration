@@ -1,37 +1,36 @@
 {
-  "python.pythonPath": "env/bin/python",
-   "emmet.triggerExpansionOnTab": true, // Emmet extension must have been installed on your system.
-  "editor.formatOnSave": true,
-  "python.linting.pep8Enabled": true,
-  "python.linting.pylintPath": "pylint",
-  "python.linting.pylintArgs": ["--load-plugins", "pylint_django"],
-  "python.linting.pylintEnabled": true,
-  "python.venvPath": "${workspaceFolder}/env/bin/python3",
-  "python.linting.pep8Args": ["--ignore=E501"],
-  "files.exclude": {
-    "**/*.pyc": true
-  },
-  "files.associations": {
-    "*.js": "javascriptreact"
-  },
-  "git.ignoreLimitWarning": true,
-  "sqltools.connections": [
-    {
-      "askForPassword": true,
-      "database": "./db.sqlite3",
-      "dialect": "SQLite",
-      "name": "assignment"
-    }
-  ],
-  "debug.allowBreakpointsEverywhere": true,
-  "window.title": "${folderPath}${separator}${activeEditorShort}${rootPath}",
-  "window.titleBarStyle": "custom",
-  "files.watcherExclude": {
-        "**/.git/objects/**": true,
-        "**/.git/subtree-cache/**": true,
-        "**/node_modules/*/**": true
-      },
-   "files.autoSave": "off",
-   "python.formatting.autopep8Path": "autopep8",
-   "editor.formatOnSave": false // use "ctrl + shift + i" for formating current file.
+    "python.pythonPath": "venv/bin/python",
+    "emmet.triggerExpansionOnTab": true, // Emmet extension must have been installed on your system.
+    "python.linting.pycodestyleEnabled": true,
+    "python.linting.pylintPath": "pylint",
+    "python.linting.pylintArgs": [
+        "--load-plugins",
+        "pylint_django"
+    ],
+    "python.linting.pylintEnabled": false, // If you want vscode show you  python linter errors change this to true.
+    "python.venvPath": "${workspaceFolder}/env/bin/python3",
+    "python.linting.pycodestyleArgs": [
+        "--ignore=E501"
+    ],
+    "files.exclude": {
+        "**/*.pyc": true
+    },
+    "files.associations": {
+        "*.js": "javascriptreact"
+    },
+    "git.ignoreLimitWarning": true,
+    "sqltools.connections": [
+        {
+            "askForPassword": true,
+            "database": "./db.sqlite3",
+            "dialect": "SQLite",
+            "name": "assignment"
+        }
+    ],
+    "debug.allowBreakpointsEverywhere": true,
+    "window.title": "${folderPath}${separator}${activeEditorShort}${rootPath}",
+    "window.titleBarStyle": "custom",
+    "python.linting.enabled": true,
+    "files.autoSave": "off",
+    "editor.formatOnSave": false, // Use "ctrl + shift + i" for formating current file.
 }
