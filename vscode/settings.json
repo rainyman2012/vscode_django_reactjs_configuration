@@ -30,5 +30,8 @@
         "**/.git/objects/**": true,
         "**/.git/subtree-cache/**": true,
         "**/node_modules/*/**": true
-      }
+      },
+   "files.autoSave": "off",
+   "python.formatting.autopep8Path": "autopep8",
+   "editor.formatOnSave": false // use "ctrl + shift + i" for formating current file.
 }
