@@ -13,7 +13,7 @@
       "django": true
     },
     {
-      "type": "chrome",
+      "type": "chrome", // install React Developer Tools extension on your Chrome
       "request": "launch",
       "name": "reactjs",
       "url": "http://localhost:3000",
