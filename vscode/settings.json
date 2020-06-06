@@ -13,7 +13,11 @@
         "--ignore=E501"
     ],
     "files.exclude": {
-        "**/*.pyc": true
+        "**/*.pyc": true,
+        "**/.git": false,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true
     },
     "files.associations": {
         "*.js": "javascriptreact"
