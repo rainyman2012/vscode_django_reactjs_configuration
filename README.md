@@ -4,14 +4,14 @@ A collecttion of best configuration to develop an application in Django and Reac
 
 **List of nice extension that is better to be installed on your vscode:**
 
-* code --install-extensio batisteo.vscode-django
-* code --install-extensio bibhasdn.django-html
-* code --install-extensio bibhasdn.django-snippets
-* code --install-extensio bigonesystems.django
-* code --install-extensio eamodio.gitlens
-* code --install-extensio KevinRose.vsc-python-indent
-* code --install-extensio ms-python.python
-* code --install-extensio necinc.elmmet
-* code --install-extensio tht13.python
-* code --install-extensio tushortz.python-extended-snippets
-* code --install-extensio yongwoo.template
+* code --install-extension batisteo.vscode-django
+* code --install-extension bibhasdn.django-html
+* code --install-extension bibhasdn.django-snippets
+* code --install-extension bigonesystems.django
+* code --install-extension eamodio.gitlens
+* code --install-extension KevinRose.vsc-python-indent
+* code --install-extension ms-python.python
+* code --install-extension necinc.elmmet
+* code --install-extension tht13.python
+* code --install-extension tushortz.python-extended-snippets
+* code --install-extension yongwoo.template
