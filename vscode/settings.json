@@ -3,6 +3,8 @@
     "emmet.triggerExpansionOnTab": true, // Emmet extension must have been installed on your system.
     "python.linting.pycodestyleEnabled": true,
     "python.linting.pylintPath": "pylint",
+    //https://github.com/microsoft/vscode/issues/38133#issuecomment-344676336
+    "editor.fontFamily": "'Ubuntu Mono', 'monospace'" // if you are using ubuntu as development environment
     "python.linting.pylintArgs": [
         "--load-plugins",
         "pylint_django"
