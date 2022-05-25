@@ -19,3 +19,4 @@ A collecttion of best configuration to develop an application in Django and Reac
 **List of packages that is better to be installed on your pip:**
 
 * pip install django-test-without-migrations
+* pip install django-extensions
