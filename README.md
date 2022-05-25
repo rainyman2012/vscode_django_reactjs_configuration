@@ -15,3 +15,7 @@ A collecttion of best configuration to develop an application in Django and Reac
 * code --install-extension tht13.python
 * code --install-extension tushortz.python-extended-snippets
 * code --install-extension yongwoo.template
+
+**List of packages that is better to be installed on your pip:**
+
+* pip install django-test-without-migrations
