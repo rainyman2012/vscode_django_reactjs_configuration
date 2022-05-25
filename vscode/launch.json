@@ -5,11 +5,21 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "Python: Current File",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal"
+    },
+    
+    {
       "name": "Python: Django shell",
       "type": "python",
       "request": "launch",
       "program": "${workspaceFolder}/manage.py",
-      "args": ["shell"],
+      "args": [
+        "shell"
+      ],
       "django": true
     },
     {
@@ -24,9 +34,25 @@
       "type": "python",
       "request": "launch",
       "program": "${workspaceFolder}/manage.py",
-      "args": ["runserver", "--noreload"],
+      "args": [
+        "runserver",
+        "localhost:8003",
+        "--noreload"
+      ] // If you want to use django which is less than 2.1 its better to turn this variable to false. 
+      // when turning this value to "false" all debugging on the templates will be disabled.
+    },
+    {
+      "name": "Python: Django Test",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/manage.py",
+      "args": [
+        "test",
+        "-v3",
+        "--nomigrations" // django-test-without-migrations should be installed in pip
+      ],
       "django": true // If you want to use django which is less than 2.1 its better to turn this variable to false. 
-                     // when turning this value to "false" all debugging on the templates will be disabled.
+      // when turning this value to "false" all debugging on the templates will be disabled.
     }
   ]
 }
